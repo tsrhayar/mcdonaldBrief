@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+.header {
+  background-color: #f3f2fa;
+}
+
+.Mnavbar .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Mnavbar .navbar-nav .nav-link {
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.products .contents .all-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-weight: 500;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.products .contents .all-product li {
+  list-style: none;
+}
+
+.products .contents .all-product li a {
+  color: #423c3c;
+  font-weight: 500;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.products .contents .all-product li img {
+  width: 230px;
+}
+
+.selected-product {
+  padding: 100px 0 100px 0;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9ImNpcmNsZSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZjllZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZkZTViMiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+  background-size: 100%;
+}
+
+.selected-product .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.selected-product .contents button {
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.selected-product .contents img {
+  width: 40%;
+}
+
+.items-list {
+  cursor: pointer;
+}
+
+.items-list .content {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  font-size: 60px;
+  margin: 50px 100px;
+}
+
+.card-items .contents #myCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-items .contents #myCard .card-body {
+  text-align: center;
+}
+
+.card-items .contents #myCard .card-body .card-text {
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card-items .contents .form-inline label {
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card-items .contents .form-inline input {
+  border: 2px solid #b4aeae;
+}
+
+.card-items .contents .form-inline input:focus {
+  border: 2px solid #b4aeae;
+  color: gray;
+}
+
+.card-items .contents .form-inline button {
+  font-weight: 500;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card-items .contents .PT {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: center;
+  font-size: 70px;
+}
+
+.card-items .contents .passCommande {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.commandDet .contents p {
+  font-size: 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
